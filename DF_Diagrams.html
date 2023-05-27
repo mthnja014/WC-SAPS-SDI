@@ -1,299 +1,354 @@
-<html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><title>DF_Diagrams</title></head><body><p dir="ltr">&lt;!DOCTYPE html&gt;<br>
-&lt;html lang='en'&gt;<br>
-&lt;head&gt;</p>
-<p dir="ltr">&lt;meta charset='UTF-8' /&gt;<br>
-&lt;meta name='viewport' content='width=device-width, initial-scale=1.0' /&gt;<br>
-&lt;meta name="description" content="dataflow diagram of SAPS crime statistics"&gt;&nbsp; <br>
-&lt;meta name="keywords" content="Western Cape, SAPS, police stations, courts, prosecutors, judges, complainant, witness, suspect, prosecuting authority, lawyer, detective, top level, level zero, decomposition, crime Registra"&gt;&nbsp; <br>
-&lt;meta name="author" content="Mthiyane, N M"&gt;<br>
-&lt;meta name="Publishing Agency" content="InterGeomatics"&gt;&nbsp; <br>
-&lt;meta name="Date of Creation" content="2023"&gt;<br>
-&lt;meta name="Contact Information" content="Physical Address: 1876 Umzunjani drive, Inanda, 4309. Email address:mthnja014@myuct.ac.za"&gt;<br>
-&lt;meta name="Hardware" content="LG-014 desktop, C20 Smartphone"&gt;<br>
-&lt;meta name="Software" content="GitHub"&gt;<br>
-&lt;meta name="File System" content="Windows, Android"&gt;</p>
-<p dir="ltr">&lt;title&gt;dataflows diagrams&lt;/title&gt;<br>
-&lt;/head&gt;<br>
-&lt;style&gt;<br>
-.container {<br>
-background-color: white;<br>
-background-size: cover;<br>
-width: 100%;<br>
-height: 100%;<br>
-}<br>
-#myCanvas {<br>
-background-color: none;<br>
-margin-top: 50px;<br>
-}<br>
-#myCanvas1 {<br>
-background-color: none;<br>
-margin-top: 50px;<br>
-}<br>
-p {<br>
-color: grey;<br>
-font-family: arial;<br>
-font-size: 1%;<br>
-font-weight: lite;<br>
-text-align: left;<br>
-}<br>
-p1 {<br>
-color: black;<br>
-font-family: arial;<br>
-font-size: 20%;<br>
-font-weight: bolder;<br>
-text-align: center;<br>
-} <br>
-&lt;/style&gt;<br>
-&lt;body&gt;<br>
-&lt;div class='container'&gt;<br>
-&lt;br&gt;&lt;/br&gt;<br>
-&lt;button onclick="location.href='Db1.html'" id="bt" type="button"&gt;Home &#127968;&lt;/button&gt;</p>
-<p dir="ltr">&lt;script&gt;<br>
-window.onload = function () {<br>
-var canvas = document.getElementById ('myCanvas') ;<br>
-var context = canvas.getContext ('2d') ;</p>
-<p dir="ltr">context.beginPath () ;<br>
-context.moveTo (545, 250);<br>
-context.lineTo (545, 200);<br>
-context.lineTo (695, 200);<br>
-context.lineTo (695, 250);<br>
-context.lineTo (545, 250);</p>
-<p dir="ltr">context.moveTo (545, 400);<br>
-context.lineTo (545, 350);<br>
-context.lineTo (695, 350);<br>
-context.lineTo (695, 400);<br>
-context.lineTo (545, 400);</p>
-<p dir="ltr">context.moveTo (545, 500);<br>
-context.lineTo (545, 550);<br>
-context.lineTo (695, 550);<br>
-context.lineTo (695, 500);<br>
-context.lineTo (545, 500);</p>
-<p dir="ltr">context.moveTo (45, 500);<br>
-context.lineTo (45, 550);<br>
-context.lineTo (195, 550);<br>
-context.lineTo (195, 500);<br>
-context.lineTo (45, 500);</p>
-<p dir="ltr">context.moveTo (45, 650);<br>
-context.lineTo (45, 700);<br>
-context.lineTo (195, 700);<br>
-context.lineTo (195, 650);<br>
-context.lineTo (45, 650);</p>
-<p dir="ltr">context.moveTo (545, 650);<br>
-context.lineTo (545, 700);<br>
-context.lineTo (695, 700);<br>
-context.lineTo (695, 650);<br>
-context.lineTo (545, 650);</p>
-<p dir="ltr">context.moveTo (545, 850);<br>
-context.lineTo (545, 800);<br>
-context.lineTo (695, 800);<br>
-context.lineTo (695, 850);<br>
-context.lineTo (545, 850);</p>
-<p dir="ltr">context.moveTo (520, 850);<br>
-context.lineTo (520, 800);<br>
-context.lineTo (370, 800);<br>
-context.lineTo (370, 850);<br>
-context.lineTo (520, 850);</p>
-<p dir="ltr">context.moveTo (1020, 650);<br>
-context.lineTo (1020, 600);<br>
-context.lineTo (870, 600);<br>
-context.lineTo (870, 650);<br>
-context.lineTo (1020, 650);</p>
-<p dir="ltr">context.moveTo (720, 850);<br>
-context.lineTo (720, 800);<br>
-context.lineTo (870, 800);<br>
-context.lineTo (870, 850);<br>
-context.lineTo (720, 850);</p>
-<p dir="ltr">context.moveTo (370, 650);<br>
-context.lineTo (370, 700);<br>
-context.lineTo (220, 700);<br>
-context.lineTo (220, 650);<br>
-context.lineTo (370, 650);</p>
-<p dir="ltr">context.moveTo (1045, 650);<br>
-context.lineTo (1045, 700);<br>
-context.lineTo (1195, 700);<br>
-context.lineTo (1195, 650);<br>
-context.lineTo (1045, 650);</p>
-<p dir="ltr">context.moveTo (1220, 650);<br>
-context.lineTo (1220, 700);<br>
-context.lineTo (1370, 700);<br>
-context.lineTo (1370, 650);<br>
-context.lineTo (1220, 650);</p>
-<p dir="ltr">context.moveTo (1395, 650);<br>
-context.lineTo (1395, 700);<br>
-context.lineTo (1545, 700);<br>
-context.lineTo (1545, 650);<br>
-context.lineTo (1395, 650);</p>
-<p dir="ltr">context.moveTo (1570, 650);<br>
-context.lineTo (1570, 700);<br>
-context.lineTo (1695, 700);<br>
-context.lineTo (1695, 650);<br>
-context.lineTo (1570, 650);</p>
-<p dir="ltr">context.moveTo (1457.5, 550);<br>
-context.lineTo (1457.5, 500);<br>
-context.lineTo (1307.5, 500);<br>
-context.lineTo (1307.5, 550);<br>
-context.lineTo (1457.5, 550);</p>
-<p dir="ltr">context.moveTo (545, 675);<br>
-context.lineTo (445, 675);<br>
-context.lineTo (445, 800);</p>
-<p dir="ltr">context.moveTo (545, 375);<br>
-context.lineTo (120, 375);<br>
-context.lineTo (120, 500);</p>
-<p dir="ltr">context.moveTo (545, 525);<br>
-context.lineTo (250, 525);<br>
-context.lineTo (250, 650);</p>
-<p dir="ltr">context.moveTo (695, 675);<br>
-context.lineTo (795, 675);<br>
-context.lineTo (795, 800);</p>
-<p dir="ltr">context.moveTo (695, 525);<br>
-context.lineTo (950, 525);<br>
-context.lineTo (950, 600);</p>
-<p dir="ltr">context.moveTo (695, 375);<br>
-context.lineTo (1382.5, 375);<br>
-context.lineTo (1382.5, 500);</p>
-<p dir="ltr">context.moveTo (1307.5, 525);<br>
-context.lineTo (1120, 525);<br>
-context.lineTo (1120, 650);</p>
-<p dir="ltr">context.moveTo (1357.5, 550);<br>
-context.lineTo (1357.5, 600);<br>
-context.lineTo (1295, 600);<br>
-context.lineTo (1295, 650);</p>
-<p dir="ltr">context.moveTo (1407.5, 550);<br>
-context.lineTo (1407.5, 600);<br>
-context.lineTo (1470, 600);<br>
-context.lineTo (1470, 650);</p>
-<p dir="ltr">context.moveTo (1457.5, 525);<br>
-context.lineTo (1632.5, 525);<br>
-context.lineTo (1632.5, 650);</p>
-<p dir="ltr">context.moveTo (120, 550);<br>
-context.lineTo (120, 650);</p>
-<p dir="ltr">context.moveTo (620, 400);<br>
-context.lineTo (620, 500);</p>
-<p dir="ltr">context.moveTo (620, 700);<br>
-context.lineTo (620, 800);</p>
-<p dir="ltr">context.moveTo (620, 250);<br>
-context.lineTo (620, 350);</p>
-<p dir="ltr">context.moveTo (620, 550);<br>
-context.lineTo (620, 650);<br>
-context.lineWidth = 1 ;<br>
-context.strokeStyle = 'black' ;<br>
-context.stroke ();<br></p>
-<p dir="ltr">var can = document.getElementById ('myCanvas') ;<br>
-var cn = can.getContext ('2d') ;<br>
-var grd = cn.createRadialGradient(0,5000,5000,5000,0, 5000);<br>
-grd.addColorStop(0, 'black');<br><br></p>
-<p dir="ltr">cn.fillStyle=grd;<br>
-cn.font='12px Arial';<br>
-cn.fillText('police station', 570, 525);<br>
-cn.fillText('WCJS Director', 570, 375);<br>
-cn.fillText('Crime Registra', 570, 225);<br>
-cn.fillText('captain', 590, 675);<br>
-cn.fillText('crime data management', 60, 525);<br>
-cn.fillText('constable', 420, 825);<br>
-cn.fillText('detective', 590, 825);<br>
-cn.fillText('administrator', 755, 825);<br>
-cn.fillText('crime data analyst', 60, 675);<br>
-cn.fillText('complainant', 230, 675);<br>
-cn.fillText('suspect', 920, 625);<br>
-cn.fillText('court', 1352, 525);<br>
-cn.fillText('witness', 1100, 675);<br>
-cn.fillText('lawyer', 1252, 675);<br>
-cn.fillText('prosecuting authority', 1420, 675);<br>
-cn.fillText('judge', 1600, 675);<br></p>
-<p dir="ltr">// dfds</p>
-<p dir="ltr"> <br>
-context.beginPath () ;<br>
-context.moveTo (30, 1350);<br>
-context.lineTo (30, 1700);<br>
-context.moveTo (170, 1350);<br>
-context.lineTo (170, 1700);<br>
-context.moveTo (30, 1350);<br>
-context.lineTo (495, 1350);<br>
-context.moveTo (30, 1375);<br>
-context.lineTo (495, 1375);<br>
-context.moveTo (30, 1400);<br>
-context.lineTo (495, 1400);<br>
-context.moveTo (30, 1425);<br>
-context.lineTo (495, 1425);<br>
-context.moveTo (30, 1450);<br>
-context.lineTo (495, 1450);<br>
-context.moveTo (30, 1475);<br>
-context.lineTo (495, 1475);<br>
-context.moveTo (30, 1500);<br>
-context.lineTo (495, 1500);<br>
-context.moveTo (30, 1525);<br>
-context.lineTo (495, 1525);<br>
-context.moveTo (30, 1550);<br>
-context.lineTo (495, 1550);<br>
-context.moveTo (30, 1575);<br>
-context.lineTo (495, 1575);<br>
-context.moveTo (30, 1600);<br>
-context.lineTo (495, 1600);<br>
-context.moveTo (30, 1625);<br>
-context.lineTo (495, 1625);<br>
-context.moveTo (30, 1650);<br>
-context.lineTo (495, 1650);<br>
-context.moveTo (30, 1675);<br>
-context.lineTo (495, 1675);<br>
-context.moveTo (30, 1700);<br>
-context.lineTo (495, 1700);<br>
-context.lineWidth = 1 ;<br>
-context.strokeStyle = 'black' ;<br>
-context.stroke ();</p>
-<p dir="ltr">context.beginPath () ;<br>
-context.moveTo (45, 1350);<br>
-context.lineTo (45, 1325);<br>
-context.lineTo (195, 1325);<br>
-context.lineTo (195, 1700);</p>
-<p dir="ltr">context.moveTo (60, 1325);<br>
-context.lineTo (60, 1300);<br>
-context.lineTo (220, 1300);<br>
-context.lineTo (220, 1700);</p>
-<p dir="ltr">context.moveTo (85, 1300);<br>
-context.lineTo (85, 1275);<br>
-context.lineTo (245, 1275);<br>
-context.lineTo (245, 1700);</p>
-<p dir="ltr">context.moveTo (110, 1275);<br>
-context.lineTo (110, 1250);<br>
-context.lineTo (270, 1250);<br>
-context.lineTo (270, 1700);</p>
-<p dir="ltr">context.moveTo (125, 1250);<br>
-context.lineTo (125, 1225);<br>
-context.lineTo (295, 1225);<br>
-context.lineTo (295, 1700);</p>
-<p dir="ltr">context.moveTo (140, 1225);<br>
-context.lineTo (140, 1200);<br>
-context.lineTo (320, 1200);<br>
-context.lineTo (320, 1700);</p>
-<p dir="ltr">context.moveTo (165, 1200);<br>
-context.lineTo (165, 1175);<br>
-context.lineTo (345, 1175);<br>
-context.lineTo (345, 1700);</p>
-<p dir="ltr">context.moveTo (190, 1175);<br>
-context.lineTo (190, 1150);<br>
-context.lineTo (370, 1150);<br>
-context.lineTo (370, 1700);</p>
-<p dir="ltr">context.moveTo (215, 1150);<br>
-context.lineTo (215, 1125);<br>
-context.lineTo (395, 1125);<br>
-context.lineTo (395, 1700);</p>
-<p dir="ltr">context.moveTo (240, 1125);<br>
-context.lineTo (240, 1100);<br>
-context.lineTo (420, 1100);<br>
-context.lineTo (420, 1700);</p>
-<p dir="ltr">context.moveTo (265, 1100);<br>
-context.lineTo (265, 1075);<br>
-context.lineTo (445, 1075);<br>
-context.lineTo (445, 1700);</p>
-<p dir="ltr">context.moveTo (280, 1075);<br>
-context.lineTo (280, 1050);<br>
-context.lineTo (470, 1050);<br>
-context.lineTo (470, 1700);</p>
-<p dir="ltr">context.moveTo (305, 1050);<br>
-context.lineTo (305, 1025);<br>
-context.lineTo (495, 1025);<br>
-context.lineTo (495, 1700);<br></p>
-<p dir="ltr">// functions</p>
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+
+<meta charset='UTF-8' />
+
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+<meta name="description" content="dataflow diagram of SAPS crime statistics">  
+
+<meta name="keywords" content="Western Cape, SAPS, police stations, courts, prosecutors, judges, complainant, witness, suspect, prosecuting authority, lawyer, detective, top level, level zero, decomposition, crime Registra">  
+
+<meta name="author" content="Mthiyane, N M">
+
+<meta name="Publishing Agency" content="InterGeomatics">  
+
+<meta name="Date of Creation" content="2023">
+
+<meta name="Contact Information" content="Physical Address: 1876 Umzunjani drive, Inanda, 4309. Email address:mthnja014@myuct.ac.za">
+
+<meta name="Hardware" content="LG-014 desktop, C20 Smartphone">
+
+<meta name="Software" content="GitHub">
+
+<meta name="File System" content="Windows, Android">
+
+<title>dataflows diagrams</title>
+
+</head>
+
+<style>
+
+.container {
+
+background-color: white;
+
+background-size: cover;
+
+width: 100%;
+
+height: 100%;
+
+}
+
+#myCanvas {
+
+background-color: none;
+
+margin-top: 50px;
+
+}
+
+#myCanvas1 {
+
+background-color: none;
+
+margin-top: 50px;
+
+}
+
+p {
+
+color: grey;
+
+font-family: arial;
+
+font-size: 1%;
+
+font-weight: lite;
+
+text-align: left;
+
+}
+
+p1 {
+
+color: black;
+
+font-family: arial;
+
+font-size: 20%;
+
+font-weight: bolder;
+
+text-align: center;
+
+} 
+
+</style>
+
+<body>
+
+<div class='container'>
+
+<br></br>
+
+<button onclick="location.href='Db1.html'" id="bt" type="button">Home 🏠</button>
+
+
+
+
+
+
+
+window.onload = function () {
+var canvas = document.getElementById ('myCanvas') ;
+var context = canvas.getContext ('2d') ;
+context.beginPath () ;
+context.moveTo (545, 250);
+context.lineTo (545, 200);
+context.lineTo (695, 200);
+context.lineTo (695, 250);
+context.lineTo (545, 250);
+context.moveTo (545, 400);
+context.lineTo (545, 350);
+context.lineTo (695, 350);
+context.lineTo (695, 400);
+context.lineTo (545, 400);
+context.moveTo (545, 500);
+context.lineTo (545, 550);
+context.lineTo (695, 550);
+context.lineTo (695, 500);
+context.lineTo (545, 500);
+context.moveTo (45, 500);
+context.lineTo (45, 550);
+context.lineTo (195, 550);
+context.lineTo (195, 500);
+context.lineTo (45, 500);
+context.moveTo (45, 650);
+context.lineTo (45, 700);
+context.lineTo (195, 700);
+context.lineTo (195, 650);
+context.lineTo (45, 650);
+context.moveTo (545, 650);
+context.lineTo (545, 700);
+context.lineTo (695, 700);
+context.lineTo (695, 650);
+context.lineTo (545, 650);
+context.moveTo (545, 850);
+context.lineTo (545, 800);
+context.lineTo (695, 800);
+context.lineTo (695, 850);
+context.lineTo (545, 850);
+context.moveTo (520, 850);
+context.lineTo (520, 800);
+context.lineTo (370, 800);
+context.lineTo (370, 850);
+context.lineTo (520, 850);
+context.moveTo (1020, 650);
+context.lineTo (1020, 600);
+context.lineTo (870, 600);
+context.lineTo (870, 650);
+context.lineTo (1020, 650);
+context.moveTo (720, 850);
+context.lineTo (720, 800);
+context.lineTo (870, 800);
+context.lineTo (870, 850);
+context.lineTo (720, 850);
+context.moveTo (370, 650);
+context.lineTo (370, 700);
+context.lineTo (220, 700);
+context.lineTo (220, 650);
+context.lineTo (370, 650);
+context.moveTo (1045, 650);
+context.lineTo (1045, 700);
+context.lineTo (1195, 700);
+context.lineTo (1195, 650);
+context.lineTo (1045, 650);
+context.moveTo (1220, 650);
+context.lineTo (1220, 700);
+context.lineTo (1370, 700);
+context.lineTo (1370, 650);
+context.lineTo (1220, 650);
+context.moveTo (1395, 650);
+context.lineTo (1395, 700);
+context.lineTo (1545, 700);
+context.lineTo (1545, 650);
+context.lineTo (1395, 650);
+context.moveTo (1570, 650);
+context.lineTo (1570, 700);
+context.lineTo (1695, 700);
+context.lineTo (1695, 650);
+context.lineTo (1570, 650);
+context.moveTo (1457.5, 550);
+context.lineTo (1457.5, 500);
+context.lineTo (1307.5, 500);
+context.lineTo (1307.5, 550);
+context.lineTo (1457.5, 550);
+context.moveTo (545, 675);
+context.lineTo (445, 675);
+context.lineTo (445, 800);
+context.moveTo (545, 375);
+context.lineTo (120, 375);
+context.lineTo (120, 500);
+context.moveTo (545, 525);
+context.lineTo (250, 525);
+context.lineTo (250, 650);
+context.moveTo (695, 675);
+context.lineTo (795, 675);
+context.lineTo (795, 800);
+context.moveTo (695, 525);
+context.lineTo (950, 525);
+context.lineTo (950, 600);
+context.moveTo (695, 375);
+context.lineTo (1382.5, 375);
+context.lineTo (1382.5, 500);
+context.moveTo (1307.5, 525);
+context.lineTo (1120, 525);
+context.lineTo (1120, 650);
+context.moveTo (1357.5, 550);
+context.lineTo (1357.5, 600);
+context.lineTo (1295, 600);
+context.lineTo (1295, 650);
+context.moveTo (1407.5, 550);
+context.lineTo (1407.5, 600);
+context.lineTo (1470, 600);
+context.lineTo (1470, 650);
+context.moveTo (1457.5, 525);
+context.lineTo (1632.5, 525);
+context.lineTo (1632.5, 650);
+context.moveTo (120, 550);
+context.lineTo (120, 650);
+context.moveTo (620, 400);
+context.lineTo (620, 500);
+context.moveTo (620, 700);
+context.lineTo (620, 800);
+context.moveTo (620, 250);
+context.lineTo (620, 350);
+context.moveTo (620, 550);
+context.lineTo (620, 650);
+context.lineWidth = 1 ;
+context.strokeStyle = 'black' ;
+context.stroke ();
+var can = document.getElementById ('myCanvas') ;
+var cn = can.getContext ('2d') ;
+var grd = cn.createRadialGradient(0,5000,5000,5000,0, 5000);
+grd.addColorStop(0, 'black');
+cn.fillStyle=grd;
+cn.font='12px Arial';
+cn.fillText('police station', 570, 525);
+cn.fillText('WCJS Director', 570, 375);
+cn.fillText('Crime Registra', 570, 225);
+cn.fillText('captain', 590, 675);
+cn.fillText('crime data management', 60, 525);
+cn.fillText('constable', 420, 825);
+cn.fillText('detective', 590, 825);
+cn.fillText('administrator', 755, 825);
+cn.fillText('crime data analyst', 60, 675);
+cn.fillText('complainant', 230, 675);
+cn.fillText('suspect', 920, 625);
+cn.fillText('court', 1352, 525);
+cn.fillText('witness', 1100, 675);
+cn.fillText('lawyer', 1252, 675);
+cn.fillText('prosecuting authority', 1420, 675);
+cn.fillText('judge', 1600, 675);
+// dfds
+
+context.beginPath () ;
+context.moveTo (30, 1350);
+context.lineTo (30, 1700);
+context.moveTo (170, 1350);
+context.lineTo (170, 1700);
+context.moveTo (30, 1350);
+context.lineTo (495, 1350);
+context.moveTo (30, 1375);
+context.lineTo (495, 1375);
+context.moveTo (30, 1400);
+context.lineTo (495, 1400);
+context.moveTo (30, 1425);
+context.lineTo (495, 1425);
+context.moveTo (30, 1450);
+context.lineTo (495, 1450);
+context.moveTo (30, 1475);
+context.lineTo (495, 1475);
+context.moveTo (30, 1500);
+context.lineTo (495, 1500);
+context.moveTo (30, 1525);
+context.lineTo (495, 1525);
+context.moveTo (30, 1550);
+context.lineTo (495, 1550);
+context.moveTo (30, 1575);
+context.lineTo (495, 1575);
+context.moveTo (30, 1600);
+context.lineTo (495, 1600);
+context.moveTo (30, 1625);
+context.lineTo (495, 1625);
+context.moveTo (30, 1650);
+context.lineTo (495, 1650);
+context.moveTo (30, 1675);
+context.lineTo (495, 1675);
+context.moveTo (30, 1700);
+context.lineTo (495, 1700);
+context.lineWidth = 1 ;
+context.strokeStyle = 'black' ;
+context.stroke ();
+context.beginPath () ;
+context.moveTo (45, 1350);
+context.lineTo (45, 1325);
+context.lineTo (195, 1325);
+context.lineTo (195, 1700);
+context.moveTo (60, 1325);
+context.lineTo (60, 1300);
+context.lineTo (220, 1300);
+context.lineTo (220, 1700);
+context.moveTo (85, 1300);
+context.lineTo (85, 1275);
+context.lineTo (245, 1275);
+context.lineTo (245, 1700);
+context.moveTo (110, 1275);
+context.lineTo (110, 1250);
+context.lineTo (270, 1250);
+context.lineTo (270, 1700);
+context.moveTo (125, 1250);
+context.lineTo (125, 1225);
+context.lineTo (295, 1225);
+context.lineTo (295, 1700);
+context.moveTo (140, 1225);
+context.lineTo (140, 1200);
+context.lineTo (320, 1200);
+context.lineTo (320, 1700);
+context.moveTo (165, 1200);
+context.lineTo (165, 1175);
+context.lineTo (345, 1175);
+context.lineTo (345, 1700);
+context.moveTo (190, 1175);
+context.lineTo (190, 1150);
+context.lineTo (370, 1150);
+context.lineTo (370, 1700);
+context.moveTo (215, 1150);
+context.lineTo (215, 1125);
+context.lineTo (395, 1125);
+context.lineTo (395, 1700);
+context.moveTo (240, 1125);
+context.lineTo (240, 1100);
+context.lineTo (420, 1100);
+context.lineTo (420, 1700);
+context.moveTo (265, 1100);
+context.lineTo (265, 1075);
+context.lineTo (445, 1075);
+context.lineTo (445, 1700);
+context.moveTo (280, 1075);
+context.lineTo (280, 1050);
+context.lineTo (470, 1050);
+context.lineTo (470, 1700);
+context.moveTo (305, 1050);
+context.lineTo (305, 1025);
+context.lineTo (495, 1025);
+context.lineTo (495, 1700);
+// functions
 <p dir="ltr">context.moveTo (170, 1350);<br>
 context.lineTo (195, 1375);<br>
 context.moveTo (170, 1375);<br>
