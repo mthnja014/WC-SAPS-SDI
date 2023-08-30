@@ -2890,7 +2890,6 @@ var plettenberg_ba = L.featureGroup([marker125]).setStyle({
 
 var plettenberg_bay = L.layerGroup([plettenberg_ba]);
 
-
 var crime = L.layerGroup([fg2, fg3, fg4, fg5]);
 var less3000 = L.layerGroup([fg2]);
 var c3000_6000 = L.layerGroup([fg3]);
@@ -3022,14 +3021,8 @@ var ds= {"All cases": crime, "Low": less3000, "Medium": c3000_6000, "Intermediat
 };
 
 var layerControl = L.control.layers(overlays, ds).addTo(map);
-</script>
-<script>
 
 L.Control.geocoder().addTo(map);
-</script>
-<script>
-
-
 
 window.onload = function () {
 var canvas = document.getElementById ("myCanvas") ;
@@ -3102,9 +3095,6 @@ cn.fillText("Intermediate", 40, 130);
 cn.fillText("High", 40, 145);
 cn.fillText("Map Extent", 45, 165);
 }
-
-</script>
-<script>
 
 var data = {
      
