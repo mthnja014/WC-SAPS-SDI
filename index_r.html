@@ -14,22 +14,22 @@ width: 100%;
 height: 100%;
 }
 .login {
-justify-content: left;
-align-items: left;
+justify-content: center;
+align-items: center;
 display: flex;
 margin-top: 0px;
 }
 #psl {
-padding-top: 22.5%;
-width: 40%;
+padding-top: 100%;
+width: 500px;
 text-align: center;
 background-color: rgb(200, 30, 187);
 color: white;
 border-radius: 5%;
 }
 #gs {
-padding-top: 22.5%;
-width: 40%;
+padding-top: 100%;
+width: 500px;
 text-align: center;
 background-color: rgb(255, 30, 7);
 color: white;
@@ -327,17 +327,14 @@ cn.fillText("e Justice Service Western",90 , 280);
 <div id="banner">
 
 <div class="login">
-<form action="geoportal_login.html" onsubmit="return validateForm()">
-<button id="gs">Login To Geoportal</button>
+<form action="geoportal_login.html">
+<button id="gs">Login To Geoportal</button><br><br>
 </form>
-<form action="database_login.html" onsubmit="return validateForm2()">
-<button id="gs">Login To Geoportal</button>
+	
+<form action="database_login.html">
+<button id="psl">Login To Database</button>
 </form>
 </div>
 
-<script>
-      function validateForm1()     
-      function validateForm2()     
-</script>
 </body>
 </html>
