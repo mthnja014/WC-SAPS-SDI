@@ -20,16 +20,20 @@ display: flex;
 margin-top: 0px;
 }
 #psl {
-padding-top: 100%;
+padding-top: 50%;
+padding-bottom: 50%;
 width: 500px;
+content-align: center;
 text-align: center;
 background-color: rgb(200, 30, 187);
 color: white;
 border-radius: 5%;
 }
 #gs {
-padding-top: 100%;
+padding-top: 50%;
+padding-bottom: 50%;
 width: 500px;
+content-align: center;
 text-align: center;
 background-color: rgb(255, 30, 7);
 color: white;
@@ -63,6 +67,15 @@ position: relative; bottom: 100px;
 #myCanvas {
 background-color: none;
 margin-top: 50px;
+}
+p1 {
+color: black;
+font-family: arial;
+font-size: 20%;
+font-weight: bolder;
+text-align: center;
+position: absolute; bottom:50px;
+display: flex;
 }
 </style>
 <body>
@@ -328,13 +341,15 @@ cn.fillText("e Justice Service Western",90 , 280);
 
 <div class="login">
 <form action="geoportal_login.html">
-<button id="gs">Login To Geoportal</button><br><br>
+<button id="gs">Login To Geoportal</button>
 </form>
-	
+<br><br>
 <form action="database_login.html">
 <button id="psl">Login To Database</button>
 </form>
 </div>
+
+<p1>© Western Cape Justice Service 2023</p1>
 
 </body>
 </html>
